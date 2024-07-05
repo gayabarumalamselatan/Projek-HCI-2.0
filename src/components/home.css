@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar.navbar-expand-md.fixed-top.ps-4{
+    border-bottom: none;
+    background-color: #007EC5;
+}
+.navbar.navbar-expand-md.fixed-top.ps-4>a.navbar-brand{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+.nav-link{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+}
+
+/* Jumbotron */
+section.overlay{
+    background-image: url('../../public/dist/img/backgroundjumbo.jpg');
+    background-size: cover;
+    height: 350px;
+}
+.jumbotron.mt-5.pt-5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 302px;
+    background: rgba(0, 0, 0, .6);
+}
+.jumbotron.mt-5.pt-5>.container.text-start>h1.display-3{
+    color: #FFF;
+    font-weight: 500;
+}
+.jumbotron.mt-5.pt-5>.container.text-start p{
+    color: #FFF;
+    font-size: large;
+}
+
+hr#line{
+    border-color: #007EC5!important ;
+}
+
+.col>img#imgMenu.img-fluid{
+    height: 200px;
+}
+
+/* Footer */
+.nav-link:hover {
+    color: #f0f0f0; /* Lighter shade of white */
+}
